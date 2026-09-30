@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전남광주통합특별시</title>
+  <meta name="description" content="대한민국 최초의 광역행정통합, 전남광주통합특별시 공식 누리집">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">본문 바로가기</a>
+
+  <header>
+    <div class="util">
+      <div class="container">
+        <p>대한민국 공식 전자정부 누리집</p>
+        <div class="r">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#" lang="en">Language</a>
+        </div>
+      </div>
+    </div>
+    <div class="container masthead">
+      <h1 class="logo">
+        <a href="#" class="logo">
+          <span class="mark" aria-hidden="true"></span>
+          전남광주통합특별시
+        </a>
+      </h1>
+      <nav aria-label="주 메뉴" class="gnb">
+        <ul>
+          <li><a href="#" aria-current="page">전남광주소개</a></li>
+          <li><a href="#">전자민원</a></li>
+          <li><a href="#">소통참여</a></li>
+          <li><a href="#">시정소식</a></li>
+          <li><a href="#">정보공개</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 히어로: 통합 선언 -->
+    <section class="hero" aria-labelledby="hero-title">
+      <svg class="streams" aria-hidden="true" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice"
+        focusable="false">
+        <!-- 두 물줄기(전남·광주)가 만나 하나로 흐르는 합류 모티프 -->
+        <path d="M-40,60 C240,120 420,260 640,300 C820,332 1020,330 1240,300" fill="none" stroke="#2E7C96"
+          stroke-width="2.5" opacity=".55" />
+        <path d="M-40,420 C220,380 430,340 640,300 C850,262 1040,270 1240,320" fill="none" stroke="#E5B63C"
+          stroke-width="2.5" opacity=".5" />
+        <path d="M640,300 C880,300 1040,310 1240,310" fill="none" stroke="url(#merge)" stroke-width="5" opacity=".85" />
+        <circle cx="640" cy="300" r="6" fill="#E5B63C" />
+        <defs>
+          <linearGradient id="merge" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#2E7C96" />
+            <stop offset="1" stop-color="#E5B63C" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="container">
+        <p class="eyebrow">2026. 7. 1. 대한민국 최초의 광역행정통합</p>
+        <h2 id="hero-title">두 개의 이름이<br>하나의 <em>도시</em>가 되었습니다</h2>
+        <p class="lead">전라남도와 광주광역시가 40년 만에 다시 하나로. 인구 320만, 시민의 삶을 넓히는 통합특별시가 시작됩니다.</p>
+        <div class="search">
+          <form role="search" aria-label="통합검색">
+            <label class="blind" for="q">검색어 입력</label>
+            <input type="search" id="q" name="q" placeholder="민원, 서비스, 소식을 검색해 보세요">
+            <button type="submit">검색</button>
+          </form>
+        </div>
+      </div>
+      <div class="seam" aria-hidden="true"></div>
+    </section>
+
+    <!-- 데이터 밴드: 통합시 핵심 수치 -->
+    <section class="stats" aria-label="통합특별시 주요 현황">
+      <div class="container">
+        <dl>
+          <div>
+            <dt>인구</dt>
+            <dd>320<span>만 명</span></dd>
+          </div>
+          <div>
+            <dt>행정구역</dt>
+            <dd>22<span>개 시·군</span> + 5<span>개 구</span></dd>
+          </div>
+          <div>
+            <dt>지역내총생산</dt>
+            <dd>159<span>조 원</span></dd>
+          </div>
+          <div>
+            <dt>출범</dt>
+            <dd>2026<span>. 7. 1.</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 자주 찾는 서비스: 탭 -->
+    <section class="svc" aria-labelledby="svc-title">
+      <div class="container tabs">
+        <div class="sec-head">
+          <h2 id="svc-title">자주 찾는 서비스</h2>
+          <a class="more" href="#">전체 서비스 보기</a>
+        </div>
+        <div role="tablist" aria-label="이용자별 서비스">
+          <button role="tab" id="tab-citizen" aria-selected="true" aria-controls="panel-citizen">시민</button>
+          <button role="tab" id="tab-biz" aria-selected="false" aria-controls="panel-biz" tabindex="-1">기업</button>
+          <button role="tab" id="tab-visit" aria-selected="false" aria-controls="panel-visit"
+            tabindex="-1">방문·관광</button>
+        </div>
+        <div role="tabpanel" id="panel-citizen" aria-labelledby="tab-citizen" tabindex="0">
+          <ul>
+            <li><a href="#">민원 신청<span class="desc">증명서 발급·온라인 민원</span></a></li>
+            <li><a href="#">달라지는 주소 안내<span class="desc">통합시 주소 표기 확인</span></a></li>
+            <li><a href="#">복지 서비스 찾기<span class="desc">나에게 맞는 지원 확인</span></a></li>
+            <li><a href="#">시설 예약<span class="desc">체육·문화 공공시설</span></a></li>
+          </ul>
+        </div>
+        <div role="tabpanel" id="panel-biz" aria-labelledby="tab-biz" tabindex="0" hidden>
+          <ul>
+            <li><a href="#">입찰·계약 정보<span class="desc">계약정보 공개 시스템</span></a></li>
+            <li><a href="#">기업 지원 사업<span class="desc">중소기업·창업 지원</span></a></li>
+            <li><a href="#">투자 환경 안내<span class="desc">산업단지·입지 정보</span></a></li>
+            <li><a href="#">지방세 납부<span class="desc">위택스 바로가기</span></a></li>
+          </ul>
+        </div>
+        <div role="tabpanel" id="panel-visit" aria-labelledby="tab-visit" tabindex="0" hidden>
+          <ul>
+            <li><a href="#">추천 여행지<span class="desc">남도의 바다와 빛의 도시</span></a></li>
+            <li><a href="#">문화 캘린더<span class="desc">이달의 축제·공연</span></a></li>
+            <li><a href="#">관광 안내소<span class="desc">권역별 안내 센터</span></a></li>
+            <li><a href="#">문화유산 탐방<span class="desc">역사와 이야기 길</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 분야별 정보 -->
+    <section class="field" aria-labelledby="field-title">
+      <div class="container">
+        <div class="sec-head">
+          <h2 id="field-title">분야별 정보</h2>
+        </div>
+        <ul>
+          <li><a href="#"><span class="dot" aria-hidden="true"></span>교통</a></li>
+          <li><a href="#"><span class="dot" aria-hidden="true"></span>복지·건강</a></li>
+          <li><a href="#"><span class="dot" aria-hidden="true"></span>산업·경제</a></li>
+          <li><a href="#"><span class="dot" aria-hidden="true"></span>농어업</a></li>
+          <li><a href="#"><span class="dot" aria-hidden="true"></span>환경</a></li>
+          <li><a href="#"><span class="dot" aria-hidden="true"></span>문화·관광</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 새소식 -->
+    <section class="news" aria-labelledby="news-title">
+      <div class="container">
+        <div class="sec-head">
+          <h2 id="news-title">새소식</h2>
+          <a class="more" href="#">소식 더 보기</a>
+        </div>
+        <ol>
+          <li>
+            <a href="#">
+              <span class="tag">공지</span>
+              <h3>통합특별시 출범에 따라 달라지는 행정 서비스 한눈에 보기</h3>
+              <p>주소 표기, 민원 창구, 대표 전화까지 — 시민 생활에 달라지는 점을 정리했습니다.</p>
+              <time datetime="2026-07-15">2026. 7. 15.</time>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="tag">보도자료</span>
+              <h3>반도체 전략위원회 첫 회의 개최</h3>
+              <time datetime="2026-07-14">2026. 10. 30.</time>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="tag">채용</span>
+              <h3>2026년 하반기 공무직 채용 공고</h3>
+              <time datetime="2026-07-10">2026. 10. 15.</time>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="tag">행사</span>
+              <h3>출범 기념 시민 대축제 안내</h3>
+              <time datetime="2026-11-5">2026. 11. 5.</time>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+        <p class="f-logo">전남광주통합특별시</p>
+        <div class="fbox">
+          <nav aria-label="푸터 메뉴">
+            <a href="#"><strong>개인정보처리방침</strong></a>
+            <a href="#">저작권 보호정책</a>
+            <a href="#">이용 안내</a>
+            <a href="#">오류 신고</a>
+          </nav>
+
+          <p class="addr">
+            광주청사: [61945]전남광주통합특별시 서구 내방로 111(치평동) · 대표전화 062)120<br>
+            무안청사: [58564]전남광주통합특별시 무안군 삼향읍 오룡길 1 / 대표전화 061-287-0011<br>
+            동부청사: [58010]전남광주통합특별시 순천시 해룡면 매안로 16 / 대표전화 061-286-7837
+          </p>
+          <p class="copyright">© 2026 Jeonnam-Gwangju Special Metropolitan City. All rights reserved.</p>
+        </div>
+
+        <div class="fmark">
+          <ul class="sns" aria-label="SNS 채널">
+            <li>
+              <a href="https://www.instagram.com/jngj_gwangju/" target="_blank" rel="noopener noreferrer" title="새창">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+                <span class="blind">인스타그램, 새창</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/jngj.gwangju/" target="_blank" rel="noopener noreferrer" title="새창">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.6h2.6l.4-3H13.5V8.4c0-.87.24-1.46 1.5-1.46h1.6V4.24C16.3 4.16 15.3 4 14.16 4c-2.3 0-3.87 1.4-3.87 3.98v2.42H7.7v3h2.6V21z"/></svg>
+                <span class="blind">페이스북, 새창</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCpCtv8fw6egexjhOJpN1IZw" target="_blank" rel="noopener noreferrer" title="새창">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="currentColor" d="M10.3 9.6v4.8l4.4-2.4z"/></svg>
+                <span class="blind">유튜브, 새창</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://pf.kakao.com/_UExipj" target="_blank" rel="noopener noreferrer" title="새창">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 4C7.3 4 3.5 7 3.5 10.7c0 2.3 1.5 4.4 3.8 5.6-.17.6-.6 2.1-.7 2.5-.1.4.16.4.33.3.14-.1 2.2-1.5 3.1-2.1.6.1 1.3.15 1.97.15 4.7 0 8.5-3 8.5-6.7S16.7 4 12 4z"/></svg>
+                <span class="blind">카카오채널, 새창</span>
+              </a>
+            </li>
+          </ul>
+          <a class="a11y-mark" href="#" target="_blank" rel="noopener noreferrer" title="새창">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="8.2" r="1.5" fill="currentColor"/><path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="M7 11.2c1.6.7 3.4 1 5 1s3.4-.3 5-1M12 12v6.5M9.3 20.5 12 15l2.7 5.5"/></svg>
+            <span>웹접근성 준수 설계<br>(포트폴리오 프로젝트)</span>
+          </a>
+        </div>
+
+    </div>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
